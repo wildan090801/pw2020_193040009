@@ -1,0 +1,53 @@
+body{
+    font-family:arial;
+    min-height: 100px;
+}
+img{
+    filter : grayscale(100%);
+    opacity : 50%;
+}
+img:hover {
+    filter : saturate(150%);
+    opacity : 100%;
+}
+.container{
+    border: 15px ;
+    width: 35%;
+    margin: 50px auto auto auto;
+    
+}
+
+.bg_gambar{
+    background-color: #ffe1b0;
+  
+}
+.bg_gambar img{
+    width: 100%;
+    height:350px; 
+   margin: auto;
+}
+.alat_musik{
+    background-color: black;
+    color:#ffffff;
+    font-weight:bold;
+}
+.merk{
+    background-color: black;
+    color:green;
+}
+#merk a {
+    font-size: 25px;
+   color :black;
+}
+.cara_bermain{
+    background-color: black;
+    color:blue;
+}
+.harga{
+    background-color:black;
+    color:yellow;
+}
+p {
+    margin : 1;
+    text-align: center;
+}
