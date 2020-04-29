@@ -18,6 +18,9 @@ $alat_musik = query("SELECT * FROM  alat_musik");
 </head>
 
 <body>
+  <div class="add">
+    <a href="tambah.php"><button>Tambah Data</button></a>
+  </div>
   <table border="1" cellpadding="13" cellspacing="0">
     <tr class="fieldname">
       <th>#</th>
@@ -34,7 +37,7 @@ $alat_musik = query("SELECT * FROM  alat_musik");
         <td><?= $i; ?></td>
         <td>
           <a href="" class="ubah"><button>Ubah</button></a>
-          <a href="" class="hapus"><button>Hapus</button></a>
+          <a href="hapus.php?id=<?= $am['id'] ?>" onclick="return confirm('Apakah anda yakin ingin Menghapus Data ???')" class="hapus"><button>Hapus</button></a>
         </td>
         <td><img src="../assets/img/<?= $am['Gambar']; ?>" alt=""></td>
         <td><?= $am['Alat_musik']; ?></td>
