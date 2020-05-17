@@ -24,6 +24,7 @@
   }
 
   .jumbotron .display-4 {
+    font-family: 'Playfair Display', serif;
     color: wheat;
     text-align: center;
     margin-top: 170px;
@@ -33,12 +34,13 @@
   }
 
   .jumbotron .lead {
+    font-family: 'Graduate', cursive;
     color: wheat;
     text-align: center;
     margin-top: 50px;
     font-weight: 300;
     text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .profile {
@@ -121,6 +123,7 @@
   }
 
   .jumbotron .display-4 {
+    font-family: 'Playfair Display', serif;
     color: wheat;
     text-align: center;
     margin-top: 170px;

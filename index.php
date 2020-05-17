@@ -16,7 +16,8 @@
   <!-- My CSS -->
   <link rel="stylesheet" href="style.css">
 
-  <title>Muhammad Wildhan</title>
+  <link rel="icon" type="image/png" href="image/tittle.jpg">
+  <title>193040009</title>
 </head>
 
 <body>
