@@ -1,0 +1,140 @@
+  /* Navbar */
+
+  .navbar {
+    position: relative;
+    z-index: 1;
+  }
+
+  .navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+    background-image: url(image/image1.jpg);
+    background-size: cover;
+    height: 690px;
+    position: relative;
+  }
+
+  .jumbotron .container {
+    z-index: 1;
+    position: relative;
+  }
+
+  .jumbotron .display-4 {
+    color: wheat;
+    text-align: center;
+    margin-top: 170px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 35px;
+  }
+
+  .jumbotron .lead {
+    color: wheat;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+  }
+
+  .profile {
+    font-family: 'Graduate', cursive;
+    text-align: right;
+    font-size: 15px;
+    background-color: rgb(233, 225, 225);
+  }
+
+  .profile h5 {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .profile p{
+    text-align: justify;
+    margin-top: 50px;
+  }
+
+  .kuliah {
+    background-color: silver;
+  }
+
+  .praktikum {
+    background-color: salmon;
+  }
+
+  .tubes {
+    background-color: skyblue;
+  }
+
+  footer{
+    background-image: linear-gradient(to bottom, rgba(54, 114, 124, 0.7), rgba(55, 93, 129, 0.925));
+    height: 250x;
+    padding-bottom: 0;
+  }
+  footer p {
+    font-size: 18px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  footer a{
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgba(32, 31, 31, 0.7);
+    color: rgb(34, 73, 68);
+  }
+  
+  footer a:hover{
+    color: rgb(95, 101, 185);
+    text-decoration: none;
+  }
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  /* Navbar */
+
+  .navbar-brand, .nav-link {
+    color: whitesmoke !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+
+  .nav-link:hover{
+    border-bottom: 3px solid skyblue;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 790px;
+  }
+
+  .jumbotron .display-4 {
+    color: wheat;
+    text-align: center;
+    margin-top: 170px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 65px;
+  }
+
+  .jumbotron .lead {
+    color: wheat;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+  }
+}
