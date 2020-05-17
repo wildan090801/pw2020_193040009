@@ -1,0 +1,58 @@
+h1{
+  color: blueviolet;
+  border: 2px solid lightblue;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px;
+  width: 490px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+form{
+  width: 500px;
+  margin: auto;
+  border: 2px solid lightblue;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 14px 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid rgb(129, 129, 129);
+  box-sizing: border-box;
+}
+
+label {
+  color: blue;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: blue;
+  color: whitesmoke;
+  width: 100%;
+  padding: 14px 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+

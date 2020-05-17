@@ -1,0 +1,103 @@
+/* SCROLL BAR */
+/* scroller browser */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: silver;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+}
+
+/* Navbar */
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(../assets/img/jumbotron.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 500px;
+  position: relative;
+ 
+}
+.jumbotron .display-4 {
+  font-family: 'Lobster', cursive;
+  color: silver;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 85px;
+}
+
+.jumbotron .lead {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 35px;
+}
+/* Akhir Jumbotron */
+
+.alatmusik {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 75px;
+}
+
+.keterangan {
+  font-family: 'Handlee', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  
+/* Navbar */
+  nav {
+    height: 60px !important;
+  }
+  .nav-link {
+    text-transform: capitalize;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .nav-item:hover {
+    border-bottom: 3px solid blueviolet;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+    background-image: url(../assets/img/jumbotron.jpg);
+    background-size: cover;
+    height: 720px;
+    position: relative;
+  }
+  .jumbotron .display-4 {
+    font-family: 'Lobster', cursive;
+    color: silver;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 85px;
+  }
+  
+  .jumbotron .lead {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+  }
+}
